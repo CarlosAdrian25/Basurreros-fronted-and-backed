@@ -1,5 +1,8 @@
 # React + Vite
 
+# NOTA:
+## SE CAMBIO Y SE AGREGO EL ESTILO PARA EL FORMULARIO DE INICIO DE SESION PARA EL CONTROL DE USUARIOS AUTORIZADOS CON SUS DEBIDOS ROLES, NO SE AH ENLAZADO CON LA BASE DE DATOS DE PHPADMIN
+## TODAVIA.
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
