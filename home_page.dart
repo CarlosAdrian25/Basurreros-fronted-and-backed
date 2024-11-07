@@ -27,14 +27,14 @@ class HomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: const Text('Perfil'),
+              title: const Text('Contactar'),
               onTap: () {
                 Navigator.pop(context); // Cierra el menú
                 // Agrega aquí la acción que necesites para "Perfil"
               },
             ),
             ListTile(
-              title: const Text('Configuraciones'),
+              title: const Text('Reportes'),
               onTap: () {
                 Navigator.pop(context); // Cierra el menú
                 // Agrega aquí la acción que necesites para "Configuraciones"
