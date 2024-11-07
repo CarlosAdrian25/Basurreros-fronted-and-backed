@@ -1,4 +1,6 @@
-# Flutter and Python
-# <img src="[[https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png](https://avatars.githubusercontent.com/u/14101776?s=280&v=4)](https://miro.medium.com/v2/resize:fit:937/0*SfIq49evi_5ofrJb.png)" alt="Flutter logo" width="40"/> Flutter and Python
+# ![Flutter logo](assets/fl.png) Flutter and Python
+
+#avance de verciones de app de basurreros en flutter con python para api rest
+
 
 
