@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #0E2761;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4a3ebf;
+}
+
+.card-header {
+    background-color: #006BA6;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#carro_asignado {
+    display: none;
+}
+
+#nuevoPersonalForm{
+    color: #4a3ebf;
+}

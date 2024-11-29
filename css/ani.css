@@ -1,0 +1,22 @@
+/* estilos de ver vehiculo */
+.ver_vehi{
+    color: #0E2761;
+}
+.ce{
+    background-color: #0E2761;
+    font-weight: bold;
+    color: white;
+}
+.info{
+    color: #0E2761;
+}
+.table tr th{
+    color: white;
+    background-color: #0089B8;
+    text-align: center;
+}
+.table tr td{
+    text-align: center;
+}
+
+/* animacion de entrada de ver vehiculo*/

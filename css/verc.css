@@ -1,0 +1,14 @@
+.table{
+    text-align: center;
+}
+.table tr td {
+    color: #0E2761;
+}
+.cerrar{
+    background-color: #0E2761;
+    color: white;
+}
+.info{
+    color: #0E2761;
+    font-weight: bold;
+}

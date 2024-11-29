@@ -1,0 +1,182 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #0E2761;
+    color: #fff;
+    z-index: 1000;
+}
+
+.sidebar .nav-link {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #0089B8;
+    color: #fff;
+}
+
+/* Contenido principal */
+.content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    background: #f5f5f5;
+    min-height: 100vh;
+}
+
+/* Encabezado fijo */
+.navbar-header {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: calc(100% - 250px);
+    background-color: #0089B8;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1050;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustar el contenido debajo del encabezado */
+.dashboard-content {
+    margin-top: 60px; /* Ajuste suficiente para no superponer el header */
+}
+
+/* Botón de asignar rutas */
+.btn-assign-routes {
+    background-color: #006BA6;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.btn-assign-routes:hover {
+    background-color: #08C7DD;
+    color: #f5f5f5;
+}
+
+/* Icono de notificaciones */
+.notification-icon {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.notification-icon:hover {
+    color: #0AD7E3;
+}
+
+/* Tabla personalizada */
+.table {
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+.table thead th {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: #0E2761;
+}
+
+.table tbody td {
+    text-align: center;
+    padding: 10px;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+#hora-actual{
+    font-size: 2cm;
+    color: #0E2761;
+}
+
+.titulo{
+    color: #0E2761;
+}
+
+.ruta{
+    color: #0E2761;
+}
+
+
+/* lista de personal estilos */
+
+.nuevo_personal{
+    background-color: #006BA6;
+    color: white;
+}
+.nuevo_personal:hover{
+    background-color: #0089B8;
+    color: white
+}
+.titulo_lista_personal{
+    background-color: white;
+    color: #0E2761;
+    font-weight: bold;
+}
+
+#t_v{
+    background-color: #0E2761;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#t_n{
+    background-color: #0089B8;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.v_vehiculo{
+    background-color: #006BA6;
+    color: white;
+}
+#sin{
+    color: #0E2761;
+    font-weight: bold;
+}
+.s_editar{
+    background-color: #0089B8;
+    font-weight: bold;
+    color: white
+}
+.s_eliminar{
+    background-color: #ff0707;
+    font-weight: bold;
+    color: white
+}
+
+/* lista de vehiculos */
+
+.nuevo_v{
+    background-color: #006BA6;
+    color: white;
+}
+.ver_conductor{
+    background-color: #0E2761;
+    color: white;
+}

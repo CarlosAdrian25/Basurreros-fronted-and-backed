@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #6458E2;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4a3ebf;
+}
+
+.card-header {
+    background-color: #08C7DD;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#carro_asignado {
+    display: none;
+}
+
+#passwordField {
+    display: none;
+}
+
+#editarPersonalForm{
+    color: #0E2761;
+}
+.gua{
+    background-color: #0E2761;
+    color: white;
+}
