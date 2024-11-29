@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %} REPORTES DE UNIDAD {% endblock %}
+{% block header %} 
+    REPORTES DE UNIDAD
+{% endblock %}
+{% block content %}
+<div class="bg-white p-4 rounded shadow-sm">
+    <h5 class="mb-5">Lista De Reportes De Personal:</h5>
+    <div class="d-flex align-items-center mb-3">
+        <div class="d-flex align-items-center me-3">
+            <label for="buscar" class="form-label me-2 mb-0">Buscar:</label>
+            <input type="text" id="buscar" class="form-control" placeholder="Buscar por personal..">
+        </div>
+        <div class="d-flex align-items-center me-3">
+            <label for="buscar-fecha" class="form-label me-2 mb-0">Fecha:</label>
+            <input type="date" id="buscar-fecha" class="form-control">
+        </div>
+        <button class="btn btn-primary text-white">Buscar</button>
+    </div>
+    <div class="mb-3"></div>  
+    <table class="table table-bordered table-striped text-center">
+        <thead class="table-primary">
+            <tr>
+                <th class="bg-success text-white">Personal</th>
+                <th class="bg-primary text-white">Glosa De Reportes</th>
+                <th class="bg-warning text-white">Fecha</th>
+                <th class="bg-secondary text-white">Hora</th>
+                <th class="bg-danger text-white">Estado</th>
+                <th class="bg-info text-white">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan Pérez</td>
+                <td class="justify-content-center align-items-center text-wrap" style="max-width: 200px;">
+                    mi compañero no se presento hoy, y quiere que le asigne asistencia
+                    de manera que reporto este estilo de consiencia por parte
+                    de mi asignacion de conductor
+                </td>                
+                           
+                <td>12/06/2025</td>
+                <td>12:05:16</td>
+                <td class="text-warning font-monospace">Pendiente</td>
+                <td>
+                    <button class="btn btn-warning btn-sm" >Editar</button>
+                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Juan Pérez</td>
+                <td class="justify-content-center align-items-center text-wrap" style="max-width: 200px;">
+                    mi compañero no se presento hoy, y quiere que le asigne asistencia
+                    de manera que reporto este estilo de consiencia por parte
+                    de mi asignacion de conductor
+                </td>                
+                           
+                <td>12/06/2025</td>
+                <td>12:05:16</td>
+                <td class="text-warning font-monospace">Pendiente</td>
+                <td>
+                    <button class="btn btn-warning btn-sm">Editar</button>
+                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Juan Pérez</td>
+                <td class="justify-content-center align-items-center text-wrap" style="max-width: 200px;">
+                    mi compañero no se presento hoy, y quiere que le asigne asistencia
+                    de manera que reporto este estilo de consiencia por parte
+                    de mi asignacion de conductor
+                </td>                
+                           
+                <td>12/06/2025</td>
+                <td>12:05:16</td>
+                <!--
+            {% if estado == 'realizado' %}
+             <td class="text-success"> realizado </td>
+            {% endif %}
+                -->
+                <td class="text-success font-monospace">realizado</td>
+                <td>
+                    <button class="btn btn-warning btn-sm">Editar</button>
+                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}
